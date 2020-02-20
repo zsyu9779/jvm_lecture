@@ -6,6 +6,7 @@ package Classloader;
  *
  * 初始化一个类的子类是主动使用的一种，所以主动使用child时，child被初始化导致parent初始化，static block调用
  *
+ * -XX:+TraceClassLoading,用于追踪类的信息并打印出来
  *  */
 
 /**
@@ -16,8 +17,8 @@ package Classloader;
 public class MyTest1 {
 
     public static void main(String[] args) {
-        System.out.println(Mychild1.str);//运行结果1
-        //System.out.println(Mychild1.str2);//运行结果2
+        //System.out.println(Mychild1.str);//运行结果1
+        System.out.println(Mychild1.str2);//运行结果2
     }
 }
 
