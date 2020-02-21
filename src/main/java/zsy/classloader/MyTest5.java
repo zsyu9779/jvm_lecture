@@ -21,7 +21,7 @@ class Singleton {
 
     private Singleton(){
         counter1++;
-        counter2++;//准备阶段的重要意义 
+        counter2++;//准备阶段的重要意义
     }
     public static int counter2 = 0;
 
