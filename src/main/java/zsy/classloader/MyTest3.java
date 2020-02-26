@@ -12,7 +12,7 @@ package zsy.classloader;
 public class MyTest3 {
     public static void main(String[] args) {
         //Myparent4 myparent4 = new Myparent4();
-    Myparent4[] myparent4s = new Myparent4[1];
+        Myparent4[] myparent4s = new Myparent4[1];
         System.out.println(myparent4s.getClass());
         System.out.println(myparent4s.getClass().getSuperclass());
 
