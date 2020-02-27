@@ -47,13 +47,13 @@ import java.util.List;
  * @Date: 20-2-17 下午5:26
  */
 
-public class MyTest1 {
+public class MyTest11 {
     public static void main(String[] args) {
 
         //-Xms5m -Xmx5m -XX:+HeapDumpOnOutOfMemoryError
-        List<MyTest1> list = new ArrayList<MyTest1>();
+        List<MyTest11> list = new ArrayList<MyTest11>();
         for (;;){
-            list.add(new MyTest1());
+            list.add(new MyTest11());
         }
 
 
